@@ -1,0 +1,25 @@
+{
+  "name": "react-routing-example",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "griddle-react": "^0.6.0",
+    "material-ui": "^0.15.0",
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.2.0",
+    "react-addons-create-fragment": "^15.1.0",
+    "react-addons-css-transition-group": "^15.1.0",
+    "react-addons-linked-state-mixin": "^15.1.0",
+    "react-addons-perf": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.2.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-addons-transition-group": "^15.1.0",
+    "react-addons-update": "^15.1.0",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.5.2",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}
