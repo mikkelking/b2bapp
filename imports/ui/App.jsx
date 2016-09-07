@@ -20,7 +20,7 @@ export default React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <NavLink className="navbar-brand" to="/">Back2Bikes app</NavLink>
+            <NavLink className="navbar-brand" to="/">Back2Bikes</NavLink>
           </div>
 
           {/* Collect the nav links, forms, and other content for toggling */}

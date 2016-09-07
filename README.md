@@ -8,7 +8,7 @@ Back2Bikes is a not for profit which recycles bikes back into the community
 
 It helps to provide affordable transport for low income earners, schools, refugees etc
 
-(http://www.back2bikes.com.au) http://www.back2bikes.com.au
+http://www.back2bikes.com.au
 
 More information on the project:
 
@@ -33,6 +33,14 @@ Wiki: https://github.com/mikkelking/b2bapp/wiki
 MIT - Easy
 
 #Getting started
+
+Install Meteor (Linux/MacOS) 
+
+```
+curl https://install.meteor.com/ | sh
+```
+
+(Windows installer is here: https://install.meteor.com/windows)
 
 Clone this repo and run like this
 
