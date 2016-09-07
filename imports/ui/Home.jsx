@@ -3,6 +3,6 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    return <div>Home</div>
+    return <div>This is an app for Back2Bikes developed by the Melbourne Meteor Meetup</div>
   }
 })
