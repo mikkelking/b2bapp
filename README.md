@@ -2,34 +2,45 @@
 
 A Meteor/React project to provide some Meteor goodness for Back2Bikes
 
-#MVP #1
-Our first MVP is to provide a Volunteer checkin feature
+#What is the project?
 
-Volunteers will checkin to an app running on an iPad in the workshop.
+Back2Bikes is a not for profit which recycles bikes back into the community
 
-  * The checkin page will display a list of volunteers that are not checked in, sorted with the volunteers with the most hours in the past month at the top
-  * Volunteers can scroll the list to find themselves
-  * Or type part of their name
-  * Or tap the "Add" button to add themselves to the system
+It helps to provide affordable transport for low income earners, schools, refugees etc
 
-To checkin 
+(http://www.back2bikes.com.au) http://www.back2bikes.com.au
 
-  * Tap their own icon, a popup will appear to ask how long they are going to work (a list of buttons with 1-8 hours on)
-  * They are signed in, and the list of signed in volunteers is displayed for 10 seconds
+More information on the project:
 
-To checkout
+http://devblog.back2bikes.com.au:8080/blog/current/
 
-  * As they have nominated the hours already, there is no need to check out, they will automatically be signed out at the end of the day
+#How can I help?
 
-#Current status on MVP #1
+Send an email to mikkelking@hotmail.com with your email address and github id
 
-  * We have a basic framework set up, and some pre-populated data
-  * Routing is done
-    * Home page
-    * Checkin page
-    * About page
-  * A list of volunteers is displayed
+##Links
 
-## To do
+Kanban board: http://wekan.meteormen.io/
 
-  * Everything else
+(register yourself)
+
+Slack: https://back2bikes.slack.com/signup
+
+Wiki: https://github.com/mikkelking/b2bapp/wiki
+
+##License
+
+MIT - Easy
+
+#Getting started
+
+Clone this repo and run like this
+
+```
+git clone https://github.com/mikkelking/b2bapp
+cd b2bapp
+meteor npm install
+meteor
+```
+
+Go to http://localhost:3000/
