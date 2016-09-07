@@ -1,13 +1,11 @@
-import React, { Component, PropTypes } from 'react';
-import { createContainer } from 'meteor/react-meteor-data';
+import React from 'react'
 import NavLink from './NavLink'
 import Home from './Home'
 import { IndexLink } from 'react-router'
 //import loginButtons from './loginButtons'
 import { Accounts, STATES } from 'meteor/std:accounts-ui';
- 
-// App component - represents the whole app
-class App extends Component {
+
+export default React.createClass({
   render() {
     return (
     <span>
@@ -28,21 +26,8 @@ class App extends Component {
           {/* Collect the nav links, forms, and other content for toggling */}
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
-              <li><NavLink to="/repos">Repos</NavLink></li>
-              <li><NavLink to="/carrots">Carrots</NavLink></li>
+              <li><NavLink to="/checkin">Checkin</NavLink></li>
               <li><NavLink to="/about">About</NavLink></li>
-              <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
-                <ul className="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li roleName="separator" className="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" className="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
             </ul>
 
             <ul className="nav navbar-nav navbar-right">
@@ -57,5 +42,5 @@ class App extends Component {
     </span>
     )
   }
-};
+});
 

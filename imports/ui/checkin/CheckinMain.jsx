@@ -1,16 +1,16 @@
 import React, { Component, PropTypes } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
  
-// Carrot component - represents a single carrot
+// Checkin component - represents a single checkin
 
-class CarrotMain extends Component {
+class CheckinMain extends Component {
   render() {
-  	console.log("RENDER CARROT");
+  	console.log("RENDER CHECKIN");
     return (
     <div class="row" id="title_row">
         <div class="col-md-12">
             <h2 id="page_title" class="pull-left">
-          Carrot
+          Checkin
         </h2>
             <div id="page_menu" class="pull-right">
             </div>
@@ -24,4 +24,4 @@ class CarrotMain extends Component {
 export default createContainer(() => {
   return {
   };
-}, CarrotMain);
+}, CheckinMain);
