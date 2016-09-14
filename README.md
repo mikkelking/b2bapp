@@ -1,6 +1,6 @@
 #B2B App
 
-A Meteor/React project to provide some Meteor goodness for Back2Bikes
+A Meteor/React project to provide some Meteor goodness for Back2Bikes. 
 
 #What is the project?
 
@@ -27,6 +27,8 @@ Kanban board: http://wekan.meteormen.io/
 Slack: https://back2bikes.slack.com/signup
 
 Wiki: https://github.com/mikkelking/b2bapp/wiki
+
+We have set up Back2bikes as a Github organisation, and all future repos will go there: https://github.com/Back2bikes
 
 ##License
 
